@@ -1,253 +1,307 @@
 <!doctype html>
 <html lang="da">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#294a3d">
-  <meta name="description" content="Kom godt i gang med Dungeons & Dragons, og find et trygt fællesskab at spille med hos Skovens Kro.">
-  <title>Skovens Kro — dit første eventyr begynder her</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="#294a3d" name="theme-color">
+    <meta content="Kom godt i gang med Dungeons & Dragons, og find et trygt fællesskab at spille med ved hjælp af Skovens Kro."
+          name="description">
+    <title>Skovens Kro — dit første eventyr begynder her</title>
+    <link href="styles.css" rel="stylesheet">
 
 </head>
 <body>
-  <a class="skip-link" href="#main">Spring til indhold</a>
+<a class="skip-link" href="#main">Spring til indhold</a>
 
-  <!-- Header og navigation -->
-  <header class="site-header">
+<!-- Header og navigation -->
+<header class="site-header">
     <div class="site-header__inner">
-      <a class="brand" href="#forside" aria-label="Skovens Kro — til forsiden">
-        <span class="brand__mark" aria-hidden="true">◆</span>
-        <span>Skovens Kro</span>
-      </a>
-      <nav class="site-nav" aria-label="Hovednavigation">
-        <a href="#forside">Forside</a>
-        <a href="#hvad-er-dnd">Hvad er DND?</a>
-        <a href="#ny-til-dnd">Ny til DND</a>
-        <a href="#find-gruppe">Find dit party</a>
-      </nav>
+        <a aria-label="Skovens Kro — til forsiden" class="brand" href="#forside">
+            <span aria-hidden="true" class="brand__mark">◆</span>
+            <span>Skovens Kro</span>
+        </a>
+        <nav aria-label="Hovednavigation" class="site-nav">
+            <a href="#forside">Forside</a>
+            <a href="#hvad-er-dnd">Hvad er DND?</a>
+            <a href="#ny-til-dnd">Ny til DND</a>
+          <a href="#kendte-grupper">Kendte grupper</a>
+            <a href="#find-gruppe">Find dit party</a>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main id="main">
+<main id="main">
     <!-- Hero: velkomst og hurtige veje ind i hobbyen -->
-    <section class="hero section-wrap" id="forside" aria-labelledby="hero-title">
-      <div class="hero__copy">
-        <p class="eyebrow">Et eventyr begynder ved bordet</p>
-        <h1 id="hero-title">Dit første eventyr <span>begynder måske her.</span></h1>
-        <p class="hero__intro">En ny og nem måde for dig og dine venner — eller en helt ny gruppe — at finde den rigtige plads omkring bordet.</p>
-        <a class="ribbon-link" href="#find-gruppe">Find din gruppe <span aria-hidden="true">↗</span></a>
-        <div class="hero__shortcuts" aria-label="Gå direkte til">
-          <a class="hex-link" href="#hvad-er-dnd"><span>Hvad er<br>DND?</span></a>
-          <a class="hex-link" href="#ny-til-dnd"><span>Jeg er<br>ny her</span></a>
-          <a class="hex-link" href="#find-gruppe"><span>Find dit<br>party</span></a>
+    <section aria-labelledby="hero-title" class="hero section-wrap" id="forside">
+        <div class="hero__copy">
+            <p class="eyebrow">Et eventyr begynder ved bordet</p>
+            <h1 id="hero-title">Dit første eventyr <span>begynder måske her.</span></h1>
+            <p class="hero__intro">En ny og nem måde for dig og dine venner — eller en helt ny gruppe — at finde den
+                rigtige plads omkring bordet.</p>
+            <a class="ribbon-link" href="#find-gruppe">Find din gruppe <span aria-hidden="true">↗</span></a>
+            <div aria-label="Gå direkte til" class="hero__shortcuts">
+                <a class="hex-link" href="#hvad-er-dnd"><span>Hvad er<br>DND?</span></a>
+                <a class="hex-link" href="#ny-til-dnd"><span>Jeg er<br>ny her</span></a>
+                <a class="hex-link" href="#find-gruppe"><span>Find dit<br>party</span></a>
+            </div>
         </div>
-      </div>
-      <figure class="hero__visual">
-        <img src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-01.jpeg" alt="Miniaturefigurer og terninger står klar på et detaljeret eventyrkort">
-        <figcaption>Der er plads til dig ved bordet.</figcaption>
-      </figure>
-      <img class="hero__sprig" src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-04.png" alt="" aria-hidden="true">
+        <figure class="hero__visual">
+            <img alt="Miniaturefigurer og terninger står klar på et detaljeret eventyrkort"
+                 src="https://i.imgur.com/jdYwT97.jpeg">
+            <figcaption>Der er plads til dig ved bordet.</figcaption>
+        </figure>
+        <img alt=""
+             aria-hidden="true"
+             class="hero__sprig" src="https://images.squarespace-cdn.com/content/v1/5e3843beb37a0716cf512998/1649883415368-TTVCNPHD0SNWA2CXGB4D/grovewarden.png">
     </section>
 
     <!-- Præsentation af hjemmesidens formål -->
-    <section class="welcome section-wrap" aria-labelledby="welcome-title">
-      <div class="welcome__badge" aria-hidden="true"><span>✦</span></div>
-      <div>
-        <p class="eyebrow">Velkommen til kroen</p>
-        <h2 id="welcome-title">Fantasi er bedre, når vi deler den.</h2>
-        <p>Skovens Kro hjælper dig fra den første nysgerrighed til din første spilleaften. Her kan du lære det grundlæggende, finde ud af hvad du skal bruge og møde andre, der også gerne vil skabe historier sammen.</p>
-      </div>
-      <p class="welcome__note">Du behøver ikke kende reglerne. Du skal bare have lyst til at prøve.</p>
+    <section aria-labelledby="welcome-title" class="welcome section-wrap">
+        <div aria-hidden="true" class="welcome__badge"><span>✦</span></div>
+        <div>
+            <p class="eyebrow">Velkommen til kroen</p>
+            <h2 id="welcome-title">Fantasi er bedre, når vi deler den.</h2>
+            <p>Skovens Kro hjælper dig fra den første nysgerrighed til din første spilleaften. Her kan du lære det
+                grundlæggende, finde ud af hvad du skal bruge og møde andre, der også gerne vil skabe historier
+                sammen.</p>
+        </div>
+        <p class="welcome__note">Du behøver ikke kende reglerne. Du skal bare have lyst til at prøve.</p>
     </section>
 
     <!-- Introduktion til Dungeons & Dragons og roller -->
-    <section class="basics section-wrap" id="hvad-er-dnd" aria-labelledby="basics-title">
-      <div class="section-heading">
-        <p class="eyebrow">01 — Hvad er DND?</p>
-        <h2 id="basics-title">Dungeons &amp; Dragons <span>| TTRPG</span></h2>
-        <p>DND er et bordrollespil, hvor I sammen skaber et eventyr. Terningerne afgør, om dine dristige planer lykkes — resten kommer fra jeres fantasi.</p>
-      </div>
-      <div class="basics__grid">
-        <figure class="framed-image basics__image">
-          <img src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-08.jpeg" alt="En gruppe venner spiller Dungeons & Dragons rundt om et bord med kort, bøger og figurer">
-          <figcaption>Et bord, nogle terninger og en fælles historie.</figcaption>
-        </figure>
-        <div class="basics__copy">
-          <img class="party-illustration" src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-06.png" alt="Illustration af en eventyrgruppe med forskellige fantasy-karakterer">
-          <p>Du skaber en karakter — måske en modig <strong>kriger</strong>, en nysgerrig <strong>troldmand</strong> eller en snu <strong>tyv</strong>. Først vælger du ofte en <strong>race</strong> (din karakters folk, som menneske eller elver) og en <strong>klasse</strong> (det, karakteren kan, som ranger, bard eller præst).</p>
-          <p>En spiller er <strong>Dungeon Master (DM)</strong>. DM’en beskriver verden, spiller bipersonerne og sætter eventyret i gang. Som spiller vælger du, hvad din karakter gør. Der er ikke én rigtig løsning — og det er helt normalt at lære reglerne undervejs.</p>
-          <p class="basics__footnote">Ofte nok: karakterblad, blyant, terninger og venner. Mange grupper låner gerne ud eller spiller med gratis digitale terninger.</p>
+    <section aria-labelledby="basics-title" class="basics section-wrap" id="hvad-er-dnd">
+        <div class="section-heading">
+            <p class="eyebrow">01 — Hvad er DND?</p>
+            <h2 id="basics-title">Dungeons &amp; Dragons <span>| TTRPG</span></h2>
+            <p>DND eller TTRPG (Tabletop roleplaying game), er et rollespil hvor man sammen med sine venner skaber et eventyr. Terningerne afgør om dine planer
+                lykkes eller fejles— og resten kommer fra jeres fantasi.</p>
         </div>
-      </div>
+        <div class="basics__grid">
+            <figure class="framed-image basics__image">
+                <img alt="En gruppe venner spiller Dungeons & Dragons rundt om et bord med kort, bøger og figurer"
+                     src="https://i.pinimg.com/1200x/4d/ea/33/4dea337cfe39cb3bd777064d390b23e2.jpg">
+                <figcaption>Et bord, nogle terninger og en fælles historie.</figcaption>
+            </figure>
+            <div class="basics__copy">
+                <img alt="Illustration af en eventyrgruppe med forskellige fantasy-karakterer" class="party-illustration"
+                     src="https://i.imgur.com/DCIRHUZ.png">
+                <p>Du skaber en karakter — måske en modig <strong>kriger</strong>, en nysgerrig
+                    <strong>troldmand</strong> eller en snu <strong>tyv</strong>. Først vælger du ofte en
+                    <strong>race</strong>, som er din karakters folk. Det kunne være et menneske, ork, trold, fe eller meget andet.
+                    Derefter vælger man sin <strong>klasse</strong>, som er sådan ens karakter kæmper og hvad deres evner er.
+                    De kunne være en barde, en barbar, en præst eller bare en kæmper.</p>
+                <p>En af spillerne er <strong>Dungeon Masteren (DM)</strong>. DM’en beskriver verden, spiller bipersonerne og
+                    sætter eventyret i gang. Det ville også være dem som du som rent ville kæmpe imod under kampe.
+                    Som spiller vælger du hvad din karakter gør og siger. Der er aldrig en <i>rigtig</i> løsning
+                    — og det er helt normalt at lære reglerne undervejs.</p>
+                <p class="basics__footnote">Der bliver ofte brugt: karakterblade, blyanter, minifigurer og terninger. Mange grupper låner
+                    gerne ud eller spiller med gratis digitale terninger.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Tryg start og svar på typiske bekymringer -->
-    <section class="first-session section-wrap" id="ny-til-dnd" aria-labelledby="first-title">
-      <div class="section-heading">
-        <p class="eyebrow">02 — Ny til DND</p>
-        <h2 id="first-title">Bare rolig, du kan ikke spille forkert.</h2>
-        <p>Nye spillere spørger tit om det samme. Her er de korte svar — og plads til at være helt ny.</p>
-      </div>
-      <div class="first-session__grid">
-        <div class="faq-list">
-          <details class="faq" open>
-            <summary>Hvad hvis jeg ikke kan reglerne?</summary>
-            <p>Det forventes ikke, at du kan dem. Din DM hjælper med terninger og regler, når de dukker op. Du skal blot fortælle, hvad din karakter prøver på.</p>
-          </details>
-          <details class="faq">
-            <summary>Jeg er bange for at gøre noget forkert.</summary>
-            <p>Der findes ikke én rigtig måde at spille på. Du må gerne tage dig tid, stille spørgsmål eller sige pas, hvis du ikke har lyst til at tale i en scene.</p>
-          </details>
-          <details class="faq">
-            <summary>Hvad hvis min karakter er stille?</summary>
-            <p>Du bestemmer selv tempoet. Det er helt fint at lytte, beskrive handlinger i tredje person eller spille en rolig karakter. Din rolle behøver ikke være højlydt.</p>
-          </details>
-          <details class="faq">
-            <summary>Skal jeg købe en masse udstyr?</summary>
-            <p>Nej. Start med papir, blyant og en enkelt terning-app eller et lånt sæt. Gruppen hjælper med resten.</p>
-          </details>
+    <section aria-labelledby="first-title" class="first-session section-wrap" id="ny-til-dnd">
+        <div class="section-heading">
+            <p class="eyebrow">02 — Ny til DND</p>
+            <h2 id="first-title">Bare rolig, du kan ikke spille forkert.</h2>
+            <p>Nye spillere spørger tit om det samme. Her er de korte svar — og plads til at være helt ny.</p>
         </div>
-        <aside class="steps-card" aria-label="Tre små skridt til din første session">
-          <h3>Små skridt tæller.</h3>
-          <ol class="steps">
-            <li><span>01</span><b>Find en gruppe</b></li>
-            <li><span>02</span><b>Prøv en session</b></li>
-            <li><span>03</span><b>Spil igen</b></li>
-          </ol>
-          <blockquote>“Rollespil er et fælles rum, hvor vi finder på historien, mens vi spiller.”</blockquote>
-          <p class="steps-card__signoff">Dit eventyr må gerne begynde stille.</p>
-        </aside>
-      </div>
-      <div class="first-session__cta">
-        <img src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-10.png" alt="" aria-hidden="true">
-        <div><h3>Klar til at skabe dit første eventyr?</h3><p>Fortæl os lidt om, hvad du håber at finde.</p></div>
-        <a class="button button--light" href="#find-gruppe">Find en begyndervenlig gruppe</a>
-      </div>
+        <div class="first-session__grid">
+            <div class="faq-list">
+                <details class="faq" open>
+                    <summary>Hvad hvis jeg ikke kan reglerne?</summary>
+                    <p>Det forventes ikke, at du kan dem. Din DM hjælper med terninger og regler, når de dukker op. Du
+                        skal blot fortælle, hvad din karakter prøver på.</p>
+                </details>
+                <details class="faq">
+                    <summary>Jeg er bange for at gøre noget forkert.</summary>
+                    <p>Der findes ikke én rigtig måde at spille på. Du må gerne tage dig tid, stille spørgsmål eller
+                        sige pas, hvis du ikke har lyst til at tale i en scene.</p>
+                </details>
+                <details class="faq">
+                    <summary>Hvad hvis min karakter er stille?</summary>
+                    <p>Du bestemmer selv tempoet. Det er helt fint at lytte, beskrive handlinger i tredje person eller
+                        spille en rolig karakter. Din rolle behøver ikke være højlydt.</p>
+                </details>
+                <details class="faq">
+                    <summary>Skal jeg købe en masse udstyr?</summary>
+                    <p>Nej. Start med papir, blyant og en enkelt terning-app eller et lånt sæt. Gruppen hjælper med
+                        resten.</p>
+                </details>
+            </div>
+            <aside aria-label="Tre små skridt til din første session" class="steps-card">
+                <h3>Små skridt tæller.</h3>
+                <ol class="steps">
+                    <li><span>01</span><b>Find en gruppe</b></li>
+                    <li><span>02</span><b>Prøv en session</b></li>
+                    <li><span>03</span><b>Spil igen</b></li>
+                </ol>
+
+                <blockquote>“Rollespil er et fælles rum, hvor vi finder på historien, mens vi spiller.”</blockquote>
+                <p class="steps-card__signoff">Dit eventyr må gerne begynde stille.</p>
+            </aside>
+        </div>
+        <div class="first-session__cta">
+            <div><h3>Klar til at skabe dit første eventyr?</h3>
+                <p>Fortæl os lidt om, hvad du håber at finde!</p></div>
+
+            <a class="button button--light" href="#find-gruppe">Find en begyndervenlig gruppe!</a>
+        </div>
     </section>
 
     <!-- Inspiration fra actual-play fællesskaber -->
-    <section class="inspiration section-wrap" aria-labelledby="inspiration-title">
-      <div class="section-heading">
-        <p class="eyebrow">03 — Se, hvad der er muligt</p>
-        <h2 id="inspiration-title">Eventyr ser aldrig ens ud.</h2>
-        <p>Populære actual-play hold viser, at man kan vokse ind i spillet på sin egen måde. De spiller for publikum, men deres begyndelser minder om vores: mennesker, der mødes om en historie.</p>
-      </div>
-      <div class="show-grid">
-        <article class="show-card">
-          <span class="show-card__number">A</span>
-          <h3>Critical Role</h3>
-          <p>Begyndte som en hjemmegruppe af venner og blev til en lang, følelsesrig fortælling i Exandria. Overgangen fra privat spil til livestream og et selvstændigt kreativt fællesskab viser, hvordan et lille bord kan vokse — uden at miste kærligheden til historierne.</p>
-          <a href="https://critrole.com/what-is-critical-role/" target="_blank" rel="noreferrer">Læs om Critical Role <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="show-card">
-          <span class="show-card__number">B</span>
-          <h3>Dimension 20</h3>
-          <p>Skifter mellem verdener og korte sæsoner, fra magisk skole til eventyr i helt nye genrer. Holdet har også vist, at man kan lære reglerne foran kameraet: Ally Beardsley begyndte som ny spiller i den første sæson. Nysgerrighed er nok til at komme i gang.</p>
-          <a href="https://www.dropout.tv/shows/dimension-20" target="_blank" rel="noreferrer">Udforsk Dimension 20 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="show-card">
-          <span class="show-card__number">C</span>
-          <h3>NADDPOD</h3>
-          <p>Not Another D&amp;D Podcast voksede fra en podcastkampagne til mange eventyr, sidehistorier og møder med lytterne. De kombinerer improvisation, humor og alvor — og minder os om, at en gruppe bliver bedre ved at spille og lære hinanden at kende.</p>
-          <a href="https://naddpod.com/about" target="_blank" rel="noreferrer">Mød NADDPOD <span aria-hidden="true">↗</span></a>
-        </article>
-      </div>
-      <p class="inspiration__note">Professionelle actual-play shows er underholdning med klipning og erfaring. Din første session må gerne være mere rodet, langsom og fuld af grin.</p>
+    <section aria-labelledby="inspiration-title" class="inspiration section-wrap" id="kendte-grupper">
+        <div class="section-heading">
+            <p class="eyebrow">03 — Se, hvad der er muligt</p>
+            <h2 id="inspiration-title">Eventyr ser aldrig ens ud.</h2>
+            <p>Populære actual-play hold viser, at man kan vokse ind i spillet på sin egen måde. De spiller for
+                publikum, men deres begyndelser minder om vores: mennesker, der mødes om en historie.</p>
+        </div>
+        <div class="show-grid">
+            <article class="show-card">
+                <span class="show-card__number">A</span>
+                <h3>Critical Role</h3>
+                <p>Begyndte som en hjemmegruppe af venner og blev til en lang, følelsesrig fortælling i Exandria.
+                    Overgangen fra privat spil til livestream og et selvstændigt kreativt fællesskab viser, hvordan et
+                    lille bord kan vokse — uden at miste kærligheden til historierne.</p>
+                <a href="https://critrole.com/what-is-critical-role/" rel="noreferrer" target="_blank">Læs om Critical
+                    Role <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="show-card">
+                <span class="show-card__number">B</span>
+                <h3>Dimension 20</h3>
+                <p>Skifter mellem verdener og korte sæsoner, fra magisk skole til eventyr i helt nye genrer. Holdet har
+                    også vist, at man kan lære reglerne foran kameraet: Ally Beardsley begyndte som ny spiller i den
+                    første sæson. Nysgerrighed er nok til at komme i gang.</p>
+                <a href="https://www.dropout.tv/shows/dimension-20" rel="noreferrer" target="_blank">Udforsk Dimension
+                    20 <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="show-card">
+                <span class="show-card__number">C</span>
+                <h3>NADDPOD</h3>
+                <p>Not Another D&amp;D Podcast voksede fra en podcastkampagne til mange eventyr, sidehistorier og møder
+                    med lytterne. De kombinerer improvisation, humor og alvor — og minder os om, at en gruppe bliver
+                    bedre ved at spille og lære hinanden at kende.</p>
+                <a href="https://naddpod.com/about" rel="noreferrer" target="_blank">Mød NADDPOD <span
+                        aria-hidden="true">↗</span></a>
+            </article>
+        </div>
+        <p class="inspiration__note">Professionelle actual-play shows er underholdning med klipning og erfaring. Din
+            første session må gerne være mere rodet, langsom og fuld af grin.</p>
     </section>
 
     <!-- Spillerfortællinger -->
-    <section class="stories section-wrap" aria-labelledby="stories-title">
-      <div class="section-heading">
-        <p class="eyebrow">Et fællesskab ved bordet</p>
-        <h2 id="stories-title">Små øjeblikke, store venskaber.</h2>
-      </div>
-      <div class="story-grid">
-        <figure class="story-card">
-          <span class="story-card__stars" aria-label="Fem stjerner">★★★★★</span>
-          <blockquote>“Jeg kendte kun én ved bordet. Efter et par aftener havde vi vores egne jokes, og nu er det ugens hyggeligste aftale.”</blockquote>
-          <figcaption>— Spillerfortælling <span>Ny i hobbyen</span></figcaption>
-        </figure>
-        <figure class="story-card story-card--green">
-          <span class="story-card__stars" aria-label="Fem stjerner">★★★★★</span>
-          <blockquote>“Jeg troede, jeg skulle kunne spille skuespil. Det skulle jeg ikke. Jeg måtte bare være mig selv og finde på lidt ad gangen.”</blockquote>
-          <figcaption>— Spillerfortælling <span>Første kampagne</span></figcaption>
-        </figure>
-        <figure class="story-card story-card--sage">
-          <span class="story-card__stars" aria-label="Fem stjerner">★★★★★</span>
-          <blockquote>“Vi mødtes for at bekæmpe drager. Vi blev hængende for hinanden.”</blockquote>
-          <figcaption>— Spillerfortælling <span>Fast gruppe</span></figcaption>
-        </figure>
-      </div>
-      <p class="stories__disclaimer">Eksempelcitater — rigtige spillerhistorier kommer fra fællesskabet.</p>
+    <section aria-labelledby="stories-title" class="stories section-wrap">
+        <div class="section-heading">
+            <p class="eyebrow">Et fællesskab ved bordet</p>
+            <h2 id="stories-title">Små øjeblikke, store venskaber.</h2>
+        </div>
+        <div class="story-grid">
+            <figure class="story-card">
+                <span aria-label="Fem stjerner" class="story-card__stars">★★★★★</span>
+                <blockquote>“Jeg kendte kun én ved bordet. Efter et par aftener havde vi vores egne jokes, og nu er det
+                    ugens hyggeligste aftale.”
+                </blockquote>
+                <figcaption>— Spillerfortælling <span>Ny i hobbyen</span></figcaption>
+            </figure>
+            <figure class="story-card story-card--green">
+                <span aria-label="Fem stjerner" class="story-card__stars">★★★★★</span>
+                <blockquote>“Jeg troede, jeg skulle kunne spille skuespil. Det skulle jeg ikke. Jeg måtte bare være mig
+                    selv og finde på lidt ad gangen.”
+                </blockquote>
+                <figcaption>— Spillerfortælling <span>Første kampagne</span></figcaption>
+            </figure>
+            <figure class="story-card story-card--sage">
+                <span aria-label="Fem stjerner" class="story-card__stars">★★★★★</span>
+                <blockquote>“Vi mødtes for at bekæmpe drager. Vi blev hængende for hinanden.”</blockquote>
+                <figcaption>— Spillerfortælling <span>Fast gruppe</span></figcaption>
+            </figure>
+        </div>
+        <p class="stories__disclaimer">Rigtige spillerhistorier fra vores brugere.</p>
     </section>
 
     <!-- Gruppeansøgning og matchformular -->
-    <section class="apply section-wrap" id="find-gruppe" aria-labelledby="apply-title">
-      <div class="apply__intro">
-        <p class="eyebrow">04 — Find dit party</p>
-        <h2 id="apply-title">Send en ansøgning, så hjælper vi.</h2>
-        <p>Fortæl os, hvordan du gerne vil spille. Vi læser ansøgningerne og matcher ud fra tempo, erfaring og det, du har lyst til at udforske.</p>
-        <img class="apply__poster" src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-12.png" alt="Illustration af en eventyrgruppe på vej gennem en grøn skov">
-      </div>
-      <form class="application-form" action="mailto:hej@skovenskro.dk" method="post" enctype="text/plain">
-        <h3>Fortæl os om dig</h3>
-        <p class="form-note">Felter markeret med * er nødvendige for at matche dig.</p>
-        <label for="name">Hvad skal vi kalde dig? *</label>
-        <input id="name" name="Navn" autocomplete="name" required>
-        <label for="email">Din e-mail *</label>
-        <input id="email" name="E-mail" type="email" autocomplete="email" required>
-        <fieldset>
-          <legend>Jeg vil gerne ansøge som *</legend>
-          <label class="choice"><input type="radio" name="Rolle" value="Spiller" required> Spiller</label>
-          <label class="choice"><input type="radio" name="Rolle" value="Dungeon Master"> Dungeon Master (DM)</label>
-        </fieldset>
-        <label for="experience">Har du prøvet DND før?</label>
-        <select id="experience" name="Erfaring">
-          <option value="">Vælg det, der passer bedst</option>
-          <option>Jeg er helt ny</option>
-          <option>Jeg har prøvet en enkelt gang</option>
-          <option>Jeg har spillet før og vil gerne i gang igen</option>
-          <option>Jeg har erfaring som DM</option>
-        </select>
-        <label for="style">Hvad vil du gerne opleve ved bordet?</label>
-        <textarea id="style" name="Spilønsker" rows="4" placeholder="Fx hyggelig fantasy, mysterier, rollespil eller taktiske kampe"></textarea>
-        <div class="form-row">
-          <div><label for="schedule">Hvornår kan du typisk spille?</label><input id="schedule" name="Tidspunkter" placeholder="Fx hverdagsaften"></div>
-          <div><label for="mode">Foretrækker du online eller fysisk?</label><select id="mode" name="Spilleform"><option>Begge dele</option><option>Fysisk</option><option>Online</option></select></div>
+    <section aria-labelledby="apply-title" class="apply section-wrap" id="find-gruppe">
+        <div class="apply__intro">
+            <p class="eyebrow">04 — Find dit party</p>
+            <h2 id="apply-title">Send en ansøgning, så hjælper vi.</h2>
+            <p>Fortæl os, hvordan du gerne vil spille. Vi læser ansøgningerne og matcher ud fra tempo, erfaring og det,
+                du har lyst til at udforske.</p>
+            <img alt="Illustration af en eventyrgruppe på vej gennem en grøn skov" class="apply__poster"
+                 src="https://i.imgur.com/uY45hqm.png">
         </div>
-        <label class="choice consent"><input type="checkbox" name="Samtykke" value="Ja" required> Jeg giver lov til, at Skovens Kro bruger mine oplysninger til at kontakte mig om et gruppematch. *</label>
-        <button class="button button--send" type="submit">Send din ansøgning afsted <span aria-hidden="true">↗</span></button>
-        <p class="form-note">Din mailapp åbner med dine svar, så du kan sende ansøgningen.</p>
-      </form>
-      <div class="apply__photos" aria-label="Billeder af spilgrupper">
-        <img src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-11.jpeg" alt="Venner samles om bordet til en hyggelig rollespilsaften">
-        <img src="../Users/sofia/Documents/Codex/2026-10-06/udvikl-en-moderne-og-responsiv-hjemmeside/outputs/dnd-hobby/images/prototype-asset-13.jpeg" alt="Spillere undersøger et eventyrkort sammen">
-      </div>
+        <form action="mailto:hej@skovenskro.dk" class="application-form" enctype="text/plain" method="post">
+            <h3>Fortæl os om dig</h3>
+            <p class="form-note">Felter markeret med * er nødvendige for at matche dig.</p>
+            <label for="name">Hvad skal vi kalde dig? *</label>
+            <input autocomplete="name" id="name" name="Navn" required>
+            <label for="email">Din e-mail *</label>
+            <input autocomplete="email" id="email" name="E-mail" required type="email">
+            <fieldset>
+                <legend>Jeg vil gerne ansøge som *</legend>
+                <label class="choice"><input name="Rolle" required type="radio" value="Spiller"> Spiller</label>
+                <label class="choice"><input name="Rolle" type="radio" value="Dungeon Master"> Dungeon Master
+                    (DM)</label>
+            </fieldset>
+            <label for="experience">Har du prøvet DND før?</label>
+            <select id="experience" name="Erfaring">
+                <option value="">Vælg det, der passer bedst</option>
+                <option>Jeg er helt ny</option>
+                <option>Jeg har prøvet en enkelt gang</option>
+                <option>Jeg har spillet før og vil gerne i gang igen</option>
+                <option>Jeg har erfaring som DM</option>
+            </select>
+            <label for="style">Hvad vil du gerne opleve ved bordet?</label>
+            <textarea id="style" name="Spilønsker" placeholder="Fx hyggelig fantasy, mysterier, rollespil eller taktiske kampe"
+                      rows="4"></textarea>
+            <div class="form-row">
+                <div><label for="schedule">Hvornår kan du typisk spille?</label><input id="schedule" name="Tidspunkter"
+                                                                                       placeholder="Fx hverdagsaften">
+                </div>
+                <div><label for="mode">Foretrækker du online eller fysisk?</label><select id="mode" name="Spilleform">
+                    <option>Begge dele</option>
+                    <option>Fysisk</option>
+                    <option>Online</option>
+                </select></div>
+            </div>
+            <label class="choice consent"><input name="Samtykke" required type="checkbox" value="Ja"> Jeg giver lov til,
+                at Skovens Kro bruger mine oplysninger til at kontakte mig om et gruppematch. *</label>
+            <button class="button button--send" type="submit">Send din ansøgning afsted <span
+                    aria-hidden="true">↗</span></button>
+            <p class="form-note">Din mailapp åbner med dine svar, så du kan sende ansøgningen.</p>
+        </form>
+        <div aria-label="Billeder af spilgrupper" class="apply__photos">
+            <img alt="Venner samles om bordet til en hyggelig rollespilsaften"
+                 src="https://i.pinimg.com/1200x/22/36/b5/2236b555cf1c9bf0592cf7776a5d0acb.jpg">
+            <img alt="Spillere undersøger et eventyrkort sammen"
+                 src="https://i.pinimg.com/736x/93/03/25/93032574aab3d09fae2bb35224ba676d.jpg">
+        </div>
     </section>
 
     <!-- Kontaktoplysninger -->
-    <section class="contact section-wrap" id="kontakt" aria-labelledby="contact-title">
-      <div>
-        <p class="eyebrow">Spørgsmål før du søger?</p>
-        <h2 id="contact-title">Skriv til kroen.</h2>
-      </div>
-      <a href="tel:+4512345678"><span>Telefon</span>+45 12 34 56 78</a>
-      <a href="mailto:hej@skovenskro.dk"><span>E-mail</span>hej@skovenskro.dk</a>
+    <section aria-labelledby="contact-title" class="contact section-wrap" id="kontakt">
+        <div>
+            <p class="eyebrow">Spørgsmål før du søger?</p>
+            <h2 id="contact-title">Skriv til kroen.</h2>
+        </div>
+        <a href="tel:+4512345678"><span>Telefon</span>+45 12 34 56 78</a>
+        <a href="mailto:hej@skovenskro.dk"><span>E-mail</span>hej@skovenskro.dk</a>
     </section>
-  </main>
+</main>
 
-  <!-- Footer og sociale links -->
-  <footer class="site-footer">
+<!-- Footer og sociale links -->
+<footer class="site-footer">
     <div class="site-footer__inner">
-      <a class="brand brand--footer" href="#forside"><span class="brand__mark" aria-hidden="true">◆</span><span>Skovens Kro</span></a>
-      <p>En plads ved bordet til alle, der vil fortælle en historie.</p>
-      <nav aria-label="Sociale medier">
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube</a>
-      </nav>
-      <small>© 2026 Skovens Kro. Alle eventyr begynder et sted.</small>
+        <a class="brand brand--footer" href="#forside"><span aria-hidden="true" class="brand__mark">◆</span><span>Skovens Kro</span></a>
+        <p>En plads ved bordet til alle, der vil fortælle en historie.</p>
+        <nav aria-label="Sociale medier">
+            <a href="https://www.instagram.com/" rel="noreferrer" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/" rel="noreferrer" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/" rel="noreferrer" target="_blank">YouTube</a>
+        </nav>
+        <small>© 2026 Skovens Kro. Alle eventyr begynder et sted.</small>
     </div>
-  </footer>
+</footer>
 </body>
 </html>
